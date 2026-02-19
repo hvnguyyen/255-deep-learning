@@ -1,1 +1,321 @@
-# 255-deep-learning
+# Course notebooks
+<p><img width=20% src="assets/jupyter.png">
+</p>
+
+Here you will find all the Jupyter notebooks used in the course. 
+They will be added as the course progresses.
+
+**Tutorials:** Walk-throughs of important concepts and methods, where most of the code is given
+**Exercises:** Here less of the code is given to you, and you need to solve most of it by yourself
+
+> Errors, warnings, or stuff not working? Visit the lab or ask on Discord 💬
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Topic</th>
+      <th>Notebook</th>
+      <th>Links</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan=4>Intro to Deep Learning</td>
+      <td>
+        <h4>Tutorial: <a href="01_digit_classification.ipynb">01 - Digit classification</a></h4>
+        Deep learning 101: Classifying handwritten numbers. This notebook serves as a quick intro to the <a href="keras.io">Keras</a> deep learning framework.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/01_digit_classification.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/01_digit_classification.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>Exercise: <a href="02_fashion_MNIST_classification.ipynb">02 - <em>Fashion MNIST</em> classification</a></h4>
+        In this notebook we go a little further in computer vision.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/02_fashion_MNIST_classification.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/02_fashion_MNIST_classification.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h4>Tutorial: <a href="03_advanced_image_classification.ipynb">03: Advanced image classification</a></h4>
+      Time to do more advanced stuff, which requires a more powerful approach to constructing neural networks in Keras, namely the <a href="https://keras.io/guides/functional_api/"functional model API></a>. Here we also start using TensorFlow datasets, image augmentation, and look at _fine-tuning_ of existing models.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/03_advanced_image_classification.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/03_advanced_image_classification.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    <tr>
+      <td>
+      <h4>Tutorial: <a href="04_activations_and_initialisers.ipynb">04: Activations and initialisers</a></h4>
+      Plot different activation functions and try them out along with different parameter initialisation schemes.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/04_activations_and_initialisers.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/04_activations_and_initialisers.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan=3>Convolutional networks</td>
+      <td>
+      <h4>Exercise: <a href="05_convnet_visualisation.ipynb">05: Visualising ConvNets</a></h4>
+      Plot activations of the different filters in a convnet, to visualise how patterns are encoded from the first to the last layer.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/05_convnet_visualisation.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/05_convnet_visualisation.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h4>Tutorial: <a href="06_augmentation.ipynb">06: Augmentation</a></h4>
+      Test different augmentation methods for computer vision.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/06_augmentation.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/06_augmentation.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h4>Exercise: <a href="07_resnets.ipynb">07: ResNets and modern convolutional networks</a></h4>
+      Implement modern, non-sequential network architectures. 
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/07_resnets.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/07_resnets.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan=4>Image segmentation and object detection</td>
+      <td>
+      <h4>Tutorial: <a href="08_image_segmentation.ipynb">08: Image segmentation</a></h4>
+      Train a model for semantic image segmentation, using <code>Conv2D</code> and <code>Conv2DTranspose</code> layers.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/08_image_segmentation.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/08_image_segmentation.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h4>Tutorial: <a href="09_pretrained_image_segmentation.ipynb">09: Using a pretrained segmentation model</a></h4>
+      Short example of how to use the pretrained <i>Segment Anything</i> model.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/09_pretrained_image_segmentation.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/09_pretrained_image_segmentation.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h4>Exercise: <a href="10_unet_segmentation.ipynb">10: Image segmentation with a U-Net architecture</a></h4>
+      Build an improved segmentation model by implementing the (now famous) <i>U-Net</i> model.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/10_unet_segmentation.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/10_unet_segmentation.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h4>Tutorial: <a href="11_object_detection.ipynb">11: Object detection</a></h4>
+      Train a <i>YOLO</i>-type model to put bounding boxes around objects detected in an image.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/11_object_detection.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/11_object_detection.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan=3>Time series</td>
+      <td>
+      <h4>Tutorial: <a href="12_timeseries_forecasting.ipynb">12: Time series forecasting</a></h4>
+      Following the example in Chapter 13, we try to predict the weather based on historical data.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/12_timeseries_forecasting.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/12_timeseries_forecasting.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h4>Exercise: <a href="13_passenger_prediction.ipynb">13: Public transport passenger prediction</a></h4>
+      Test different methods for forecasting passenger numbers on public transport.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/13_passenger_prediction.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/13_passenger_prediction.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h4>Exercise: <a href="14_timeseries_anomaly_detection.ipynb">14: Anomaly detection</a></h4>
+       Train an <i>autoencoder</i> to detect anomalous data in time series. 
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/14_timeseries_anomaly_detection.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/14_timeseries_anomaly_detection.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>Deployment</td>
+      <td>
+      <h4>Tutorial: <a href="15_gradio_and_streamlit.ipynb">15: Gradio and Streamlit </a></h4>
+      Deploy your deep learning predictor in a user-friendly webapp using the Gradio and Streamlit libraries.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/15_gradio_and_streamlit.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/15_gradio_and_streamlit.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td rowspan=3>Tabular data</td>
+      <td>
+      <h4>Tutorial: <a href="16_simple_tabular_data.ipynb">16: Deep learing on tabular data</a></h4>
+      Compare the predictive performance of neural networks and decision trees, when applied to tabular datasets.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/16_simple_tabular_data.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/16_simple_tabular_data.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h4>Exercise: <a href="17_preprocessing_tabular_data.ipynb">17: Preprocessing tabular data with Keras.</a></h4>
+      Try out the different preprocessing layers in Keras.
+      </td>
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/17_preprocessing_tabular_data.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/17_preprocessing_tabular_data.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <h4>(Optional) Exercise: <a href="18_embeddings_and_modern_tabular_networks.ipynb">18: Embeddings and modern networks for tabular data. </a></h4>
+      Skip the one-hot encodings and replace them with embeddings. Then train a transformer model on it 👩‍💻
+      <td>
+        <a href="https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/18_embeddings_and_modern_tabular_networks.ipynb">
+          <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Google Colab">
+        </a><br>
+        <a href="https://raw.githubusercontent.com/HVL-ML/DAT255/main/notebooks/18_embeddings_and_modern_tabular_networks.ipynb" download>
+          <img src="https://img.shields.io/badge/github-download-blue?logo=github" alt="Download">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<!--
+| Week | Notebook | Colab link |
+| --- | --- | --- | 
+| | [1: Digit classification](01_digit_classification.ipynb)<br>Deep learning 101: Classifying handwritten numbers. This notebook serves as a quick intro to the [Keras](keras.io) deep learning framework. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/01_digit_classification.ipynb) |
+| | [2: _Fashion MNIST_ classification](02_fashion_MNIST_classification.ipynb)<br>In this notebook we go a little further in computer vision. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/02_fashion_MNIST_classification.ipynb) |
+| | [3: Advanced image classification](3_advanced_image_classification.ipynb)<br> Time to do more advanced stuff, which requires a more powerful approach to constructing neural networks in Keras, namely the [functional model API](https://keras.io/guides/functional_api/). Here we also start using TensorFlow datasets, image augmentation, and look at _fine-tuning_ of existing models. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/3_advanced_image_classification.ipynb) |
+| | [4: Visualising ConvNets](4-convnet-visualisation.ipynb)<br> Plot activations of the different filters in a convnet, to visualise how patterns are encoded from the first to the last layer.  | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/4-convnet-visualisation.ipynb) |
+| | [5: Activations and initialisers](5-activations-and-initialisers.ipynb)<br> Plot different activation functions and try them out along with different parameter initialisation schemes.  | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/5-activations-and-initialisers.ipynb) |
+| | [6: Callbacks and schedulers](6-callbacks-and-schedulers.ipynb)<br> Dynamically modify the optimiser settings during training.  | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/6-callbacks-and-schedulers.ipynb) |
+| | [7: Optimisers](7-optimisers.ipynb)<br> Compare and evaluate different optimisation methods.  | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/7-optimisers.ipynb) |
+| | [8: Data loading in TensorFlow](8_dataloading.ipynb)<br> Intro to efficient data loading with `tf.data.Dataset`.  | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/8_dataloading.ipynb) |
+| | [9: Augmentation](9_augmentation.ipynb)<br> Test different augmentation methods for computer vision.  | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/9_augmentation.ipynb) |
+| | [10: ResNets and modern convolutional networks](10_resnets.ipynb)<br> Implement modern, non-sequential network architectures. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/10_resnets.ipynb) |
+| | [11: Image segmentation](11_image_segmentation.ipynb)<br> Train a model for semantic segmentation. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/11_image_segmentation.ipynb) |
+| | [12: YOLO models](12_yolo_.ipynb)<br> Optional exercise: Try out pre-trained segmentation models from the YOLO family.  | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/12_yolo.ipynb) |
+| | [13: Image denoising with autoencoders](13_image_denoiser.ipynb)<br> Yet another computer vision task: Enhance images by removing noise.  | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/13_image_denoiser.ipynb) |
+| | [14: Process sequences with RNNs](14_processing_sequences_with_rnns.ipynb)<br> Test different methods for forecasting passenger numbers on public transport, following the approach in Ch 14. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/14_processing_sequences_with_rnns.ipynb) |
+| | [15: Weather forecasting with RNNs](15_rnn_weather_forecasting.ipynb)<br> Another forecasting task, where we try even further deep learning approaches. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/15_rnn_weather_forecasting.ipynb) |
+| | [16: Translate languages with a sequence-to-sequence model](16_sequence_to_sequence_RNN.ipynb)<br> Here we train a recurrent network to predict entire sequences. For a given input sentence in English, we train a model to predict the Frensh translation. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/16_sequence_to_sequence_RNN.ipynb) |
+| | [17: Anomaly detection](17_anomaly_detection.ipynb)<br> Train an autoencoder to detect anomalous data in time series. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/17_anomaly_detection.ipynb) |
+| | [18: Hacking CNNs with adversarial examples](18_adversarial_examples.ipynb)<br> Try to fool an advanced pre-trained convolutional network into making bad predictions, by sprinkling some magic at the input images. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/18_adversarial_examples.ipynb) |
+| | [19: Compare neural networks to tree-based models on tabular data](19_simple_tabular_data.ipynb)<br> Compare the predictive performance of neural networks and decision trees, when applied to tabular datasets. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/19_simple_tabular_data.ipynb) |
+| | [20: Preprocessing tabular data with Keras](20_preprocessing_tabular_data_with_keras.ipynb)<br> Try out the different preprocessing layers in Keras. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/20_preprocessing_tabular_data_with_keras.ipynb) |
+| | [21: Embeddings and modern networks for tabular data](21_embeddings_and_modern_tabular_networks.ipynb)<br> Skip the one-hot encodings and replace them with embeddings. Then train a transformer model on it 👩‍💻 | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/21_embeddings_and_modern_tabular_networks.ipynb) |
+| | [22: Text classificatiom](22_text_classification.ipynb)<br> Build an NLP model for sentiment analysis, in this case, classifying film reviews. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/22_text_classification.ipynb) |
+| | [23: Word embeddings](23_word_embeddings.ipynb)<br> Train word embeddings and investigate the high-dimensional embedding space. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/23_word_embeddings.ipynb) |
+| | [24: Fine-tune a model on pretrained embeddings](24_pretrained_embeddings.ipynb)<br> Benefit from the work others have done, by downloading pretrained word embeddings. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/24_pretrained_embeddings.ipynb) |
+| | [25: Code classification](25_code_classification.ipynb)<br> Can you tell the difference between Java, JavaScript, C# and Python? | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/25_code_classification.ipynb) |
+| | [26: Tokenisers](26_tokenisers.ipynb)<br> Modern language models rely on different tokenisation algorithms to split up the text into useful tokens. Here we try out a few of them. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/26_tokenisers.ipynb) |
+| | [27: Transformer encoder for classification](27_transformer_encoder_for_classification.ipynb)<br> We continue doing text classification, but with a more powerful tool: The transformer. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/27_transformer_encoder_for_classification.ipynb) |
+| | [28: Attention visualisation](28_attention_visualisation.ipynb)<br> Visualise the attention mechanism in pretrained large language models. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/28_attention_visualisation.ipynb) |
+| | [29: Machine translation with transformers](29_translation.ipynb)<br> Translate to the language of your choice using an encoder-decoder transformer model. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/29_translation.ipynb) |
+| | [30: Text generation](30_text_generation.ipynb)<br> Try out different sampling strategies to generate text just like ChatGPT (or at least almost). | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/30_text_generation.ipynb) |
+| | [31: Run LLMs from Hugging Face Hub](31_LLMs_from_Hugging_Face_hub.ipynb)<br> Run state-of-the-art open-source models with almost zero effort. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/31_LLMs_from_Hugging_Face_hub.ipynb) |
+| | [32: Optimise model size and memory use](32_optimisation.ipynb)<br> Prepare a model for running on edge devices by quantising its weights. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/32_optimisation.ipynb) |
+| | [33: Deploy a model as a REST API](33_tensorflow_serving.ipynb)<br> Deploy a model as a REST API endpoint using TensorFlow Serving. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/33_tensorflow_serving.ipynb) |
+| | [34: Variational autoencoder](34_variational_autoencoder.ipynb)<br> Generate new images by sampling the latent space of a variational autoencoder. | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/34_variational_autoencoder.ipynb) |
+| | [35: Diffusion models](35_denoising_diffusion.ipynb)<br> A look at modern image generation models: The denoising diffusion probabilistic model (DDPM) | [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/HVL-ML/DAT255/blob/main/notebooks/35_denoising_diffusion.ipynb) |
+-->
